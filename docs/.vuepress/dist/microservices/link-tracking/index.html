@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>链路跟踪 | JustStudy</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="/vuepress-just-study/images/favicon/favicon-32x32.png">
+    <meta name="description" content="Just Study">
+    
+    <link rel="preload" href="/vuepress-just-study/assets/css/0.styles.78b1812e.css" as="style"><link rel="preload" href="/vuepress-just-study/assets/js/app.f36dde13.js" as="script"><link rel="preload" href="/vuepress-just-study/assets/js/2.37c8e2cf.js" as="script"><link rel="preload" href="/vuepress-just-study/assets/js/23.e3cac173.js" as="script"><link rel="prefetch" href="/vuepress-just-study/assets/js/10.e72ee210.js"><link rel="prefetch" href="/vuepress-just-study/assets/js/11.a131bdfa.js"><link rel="prefetch" href="/vuepress-just-study/assets/js/12.f7367760.js"><link rel="prefetch" href="/vuepress-just-study/assets/js/13.cd6049b9.js"><link rel="prefetch" href="/vuepress-just-study/assets/js/14.d2350be1.js"><link rel="prefetch" href="/vuepress-just-study/assets/js/15.d52fc301.js"><link rel="prefetch" href="/vuepress-just-study/assets/js/16.aeeaa30f.js"><link rel="prefetch" href="/vuepress-just-study/assets/js/17.a8515602.js"><link rel="prefetch" href="/vuepress-just-study/assets/js/18.b95203a7.js"><link rel="prefetch" href="/vuepress-just-study/assets/js/19.08ce886d.js"><link rel="prefetch" href="/vuepress-just-study/assets/js/20.2ec8fe14.js"><link rel="prefetch" href="/vuepress-just-study/assets/js/21.121fef8e.js"><link rel="prefetch" href="/vuepress-just-study/assets/js/22.84fdbd9f.js"><link rel="prefetch" href="/vuepress-just-study/assets/js/24.f7c993b9.js"><link rel="prefetch" href="/vuepress-just-study/assets/js/25.1da32751.js"><link rel="prefetch" href="/vuepress-just-study/assets/js/26.747292b4.js"><link rel="prefetch" href="/vuepress-just-study/assets/js/27.50c1840c.js"><link rel="prefetch" href="/vuepress-just-study/assets/js/28.9797e782.js"><link rel="prefetch" href="/vuepress-just-study/assets/js/29.4a9a10bb.js"><link rel="prefetch" href="/vuepress-just-study/assets/js/3.b575f75f.js"><link rel="prefetch" href="/vuepress-just-study/assets/js/30.842d3cb3.js"><link rel="prefetch" href="/vuepress-just-study/assets/js/31.13ca3898.js"><link rel="prefetch" href="/vuepress-just-study/assets/js/32.43e14e91.js"><link rel="prefetch" href="/vuepress-just-study/assets/js/33.0c4cb48d.js"><link rel="prefetch" href="/vuepress-just-study/assets/js/34.1d833e15.js"><link rel="prefetch" href="/vuepress-just-study/assets/js/35.c95cc7b3.js"><link rel="prefetch" href="/vuepress-just-study/assets/js/36.58c6ec4b.js"><link rel="prefetch" href="/vuepress-just-study/assets/js/4.da8b72e6.js"><link rel="prefetch" href="/vuepress-just-study/assets/js/5.048c6337.js"><link rel="prefetch" href="/vuepress-just-study/assets/js/6.29f38f88.js"><link rel="prefetch" href="/vuepress-just-study/assets/js/7.377dc914.js"><link rel="prefetch" href="/vuepress-just-study/assets/js/8.f8e08676.js"><link rel="prefetch" href="/vuepress-just-study/assets/js/9.d2603340.js">
+    <link rel="stylesheet" href="/vuepress-just-study/assets/css/0.styles.78b1812e.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/vuepress-just-study/" class="home-link router-link-active"><img src="/vuepress-just-study/images/logo.png" alt="JustStudy" class="logo"> <span class="site-name can-hide">JustStudy</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/vuepress-just-study/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="JAVA" class="dropdown-title"><span class="title">JAVA</span> <span class="arrow down"></span></button> <button type="button" aria-label="JAVA" class="mobile-dropdown-title"><span class="title">JAVA</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/vuepress-just-study/java/base/" class="nav-link">
+  基础
+</a></li><li class="dropdown-item"><!----> <a href="/vuepress-just-study/java/collections/" class="nav-link">
+  集合
+</a></li><li class="dropdown-item"><!----> <a href="/vuepress-just-study/java/io/" class="nav-link">
+  IO
+</a></li><li class="dropdown-item"><!----> <a href="/vuepress-just-study/java/concurrent/" class="nav-link">
+  并发编程
+</a></li><li class="dropdown-item"><!----> <a href="/vuepress-just-study/java/net/" class="nav-link">
+  网络编程
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="数据库" class="dropdown-title"><span class="title">数据库</span> <span class="arrow down"></span></button> <button type="button" aria-label="数据库" class="mobile-dropdown-title"><span class="title">数据库</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/vuepress-just-study/databases/mysql/" class="nav-link">
+  mysql
+</a></li><li class="dropdown-item"><!----> <a href="/vuepress-just-study/databases/redis/" class="nav-link">
+  redis
+</a></li><li class="dropdown-item"><!----> <a href="/vuepress-just-study/databases/mongodb/" class="nav-link">
+  mongodb
+</a></li><li class="dropdown-item"><!----> <a href="/vuepress-just-study/databases/elasticsearch/" class="nav-link">
+  elasticsearch
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Servlet规范" class="dropdown-title"><span class="title">Servlet规范</span> <span class="arrow down"></span></button> <button type="button" aria-label="Servlet规范" class="mobile-dropdown-title"><span class="title">Servlet规范</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/vuepress-just-study/servlet-specification/application/" class="nav-link">
+  应用
+</a></li><li class="dropdown-item"><!----> <a href="/vuepress-just-study/servlet-specification/server/" class="nav-link">
+  服务
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="框架" class="dropdown-title"><span class="title">框架</span> <span class="arrow down"></span></button> <button type="button" aria-label="框架" class="mobile-dropdown-title"><span class="title">框架</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/vuepress-just-study/framework/spring/" class="nav-link">
+  Spring
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="微服务" class="dropdown-title"><span class="title">微服务</span> <span class="arrow down"></span></button> <button type="button" aria-label="微服务" class="mobile-dropdown-title"><span class="title">微服务</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/vuepress-just-study/microservices/registration-center/" class="nav-link">
+  注册中心
+</a></li><li class="dropdown-item"><!----> <a href="/vuepress-just-study/microservices/load-balance/" class="nav-link">
+  负载均衡
+</a></li><li class="dropdown-item"><!----> <a href="/vuepress-just-study/microservices/gateway/" class="nav-link">
+  网关
+</a></li><li class="dropdown-item"><!----> <a href="/vuepress-just-study/microservices/current-limiting-and-fusing/" class="nav-link">
+  限流熔断
+</a></li><li class="dropdown-item"><!----> <a href="/vuepress-just-study/microservices/link-tracking/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  链路跟踪
+</a></li><li class="dropdown-item"><!----> <a href="/vuepress-just-study/microservices/configuration-center/" class="nav-link">
+  配置中心
+</a></li><li class="dropdown-item"><!----> <a href="/vuepress-just-study/microservices/message-quque/" class="nav-link">
+  消息队列
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="其他" class="dropdown-title"><span class="title">其他</span> <span class="arrow down"></span></button> <button type="button" aria-label="其他" class="mobile-dropdown-title"><span class="title">其他</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/vuepress-just-study/others/datastructure/" class="nav-link">
+  数据结构
+</a></li><li class="dropdown-item"><!----> <a href="/vuepress-just-study/others/algorithm/" class="nav-link">
+  算法
+</a></li><li class="dropdown-item"><!----> <a href="/vuepress-just-study/others/operating_system/" class="nav-link">
+  操作系统
+</a></li><li class="dropdown-item"><!----> <a href="/vuepress-just-study/others/design_pattern/" class="nav-link">
+  设计模式
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="书籍推荐" class="dropdown-title"><span class="title">书籍推荐</span> <span class="arrow down"></span></button> <button type="button" aria-label="书籍推荐" class="mobile-dropdown-title"><span class="title">书籍推荐</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/vuepress-just-study/books/code/" class="nav-link">
+  C.O.D.E编码
+</a></li></ul></div></div><div class="nav-item"><a href="/vuepress-just-study/about-me/" class="nav-link">
+  关于我
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="关于本项目" class="dropdown-title"><span class="title">关于本项目</span> <span class="arrow down"></span></button> <button type="button" aria-label="关于本项目" class="mobile-dropdown-title"><span class="title">关于本项目</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/vuepress-just-study/program/introduction/" class="nav-link">
+  立项初衷
+</a></li><li class="dropdown-item"><!----> <a href="/vuepress-just-study/program/nodejsinstall/" class="nav-link">
+  NodeJs安装
+</a></li><li class="dropdown-item"><!----> <a href="/vuepress-just-study/program/create/" class="nav-link">
+  项目创建
+</a></li><li class="dropdown-item"><!----> <a href="/vuepress-just-study/program/arrange/" class="nav-link">
+  项目部署
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/vuepress-just-study/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="JAVA" class="dropdown-title"><span class="title">JAVA</span> <span class="arrow down"></span></button> <button type="button" aria-label="JAVA" class="mobile-dropdown-title"><span class="title">JAVA</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/vuepress-just-study/java/base/" class="nav-link">
+  基础
+</a></li><li class="dropdown-item"><!----> <a href="/vuepress-just-study/java/collections/" class="nav-link">
+  集合
+</a></li><li class="dropdown-item"><!----> <a href="/vuepress-just-study/java/io/" class="nav-link">
+  IO
+</a></li><li class="dropdown-item"><!----> <a href="/vuepress-just-study/java/concurrent/" class="nav-link">
+  并发编程
+</a></li><li class="dropdown-item"><!----> <a href="/vuepress-just-study/java/net/" class="nav-link">
+  网络编程
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="数据库" class="dropdown-title"><span class="title">数据库</span> <span class="arrow down"></span></button> <button type="button" aria-label="数据库" class="mobile-dropdown-title"><span class="title">数据库</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/vuepress-just-study/databases/mysql/" class="nav-link">
+  mysql
+</a></li><li class="dropdown-item"><!----> <a href="/vuepress-just-study/databases/redis/" class="nav-link">
+  redis
+</a></li><li class="dropdown-item"><!----> <a href="/vuepress-just-study/databases/mongodb/" class="nav-link">
+  mongodb
+</a></li><li class="dropdown-item"><!----> <a href="/vuepress-just-study/databases/elasticsearch/" class="nav-link">
+  elasticsearch
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Servlet规范" class="dropdown-title"><span class="title">Servlet规范</span> <span class="arrow down"></span></button> <button type="button" aria-label="Servlet规范" class="mobile-dropdown-title"><span class="title">Servlet规范</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/vuepress-just-study/servlet-specification/application/" class="nav-link">
+  应用
+</a></li><li class="dropdown-item"><!----> <a href="/vuepress-just-study/servlet-specification/server/" class="nav-link">
+  服务
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="框架" class="dropdown-title"><span class="title">框架</span> <span class="arrow down"></span></button> <button type="button" aria-label="框架" class="mobile-dropdown-title"><span class="title">框架</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/vuepress-just-study/framework/spring/" class="nav-link">
+  Spring
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="微服务" class="dropdown-title"><span class="title">微服务</span> <span class="arrow down"></span></button> <button type="button" aria-label="微服务" class="mobile-dropdown-title"><span class="title">微服务</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/vuepress-just-study/microservices/registration-center/" class="nav-link">
+  注册中心
+</a></li><li class="dropdown-item"><!----> <a href="/vuepress-just-study/microservices/load-balance/" class="nav-link">
+  负载均衡
+</a></li><li class="dropdown-item"><!----> <a href="/vuepress-just-study/microservices/gateway/" class="nav-link">
+  网关
+</a></li><li class="dropdown-item"><!----> <a href="/vuepress-just-study/microservices/current-limiting-and-fusing/" class="nav-link">
+  限流熔断
+</a></li><li class="dropdown-item"><!----> <a href="/vuepress-just-study/microservices/link-tracking/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  链路跟踪
+</a></li><li class="dropdown-item"><!----> <a href="/vuepress-just-study/microservices/configuration-center/" class="nav-link">
+  配置中心
+</a></li><li class="dropdown-item"><!----> <a href="/vuepress-just-study/microservices/message-quque/" class="nav-link">
+  消息队列
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="其他" class="dropdown-title"><span class="title">其他</span> <span class="arrow down"></span></button> <button type="button" aria-label="其他" class="mobile-dropdown-title"><span class="title">其他</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/vuepress-just-study/others/datastructure/" class="nav-link">
+  数据结构
+</a></li><li class="dropdown-item"><!----> <a href="/vuepress-just-study/others/algorithm/" class="nav-link">
+  算法
+</a></li><li class="dropdown-item"><!----> <a href="/vuepress-just-study/others/operating_system/" class="nav-link">
+  操作系统
+</a></li><li class="dropdown-item"><!----> <a href="/vuepress-just-study/others/design_pattern/" class="nav-link">
+  设计模式
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="书籍推荐" class="dropdown-title"><span class="title">书籍推荐</span> <span class="arrow down"></span></button> <button type="button" aria-label="书籍推荐" class="mobile-dropdown-title"><span class="title">书籍推荐</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/vuepress-just-study/books/code/" class="nav-link">
+  C.O.D.E编码
+</a></li></ul></div></div><div class="nav-item"><a href="/vuepress-just-study/about-me/" class="nav-link">
+  关于我
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="关于本项目" class="dropdown-title"><span class="title">关于本项目</span> <span class="arrow down"></span></button> <button type="button" aria-label="关于本项目" class="mobile-dropdown-title"><span class="title">关于本项目</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/vuepress-just-study/program/introduction/" class="nav-link">
+  立项初衷
+</a></li><li class="dropdown-item"><!----> <a href="/vuepress-just-study/program/nodejsinstall/" class="nav-link">
+  NodeJs安装
+</a></li><li class="dropdown-item"><!----> <a href="/vuepress-just-study/program/create/" class="nav-link">
+  项目创建
+</a></li><li class="dropdown-item"><!----> <a href="/vuepress-just-study/program/arrange/" class="nav-link">
+  项目部署
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>链路跟踪</span> <!----></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="链路跟踪"><a href="#链路跟踪" class="header-anchor">#</a> 链路跟踪</h1></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/vuepress-just-study/assets/js/app.f36dde13.js" defer></script><script src="/vuepress-just-study/assets/js/2.37c8e2cf.js" defer></script><script src="/vuepress-just-study/assets/js/23.e3cac173.js" defer></script>
+  </body>
+</html>

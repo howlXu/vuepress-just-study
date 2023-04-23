@@ -1,0 +1,16 @@
+{
+  "name": "vuepress-just-study",
+  "version": "1.0.0",
+  "description": "just-study",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  }
+}
